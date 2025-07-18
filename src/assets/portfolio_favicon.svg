@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <radialGradient id="spaceGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f23;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="shadowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c5ce7;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#a29bfe;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#fd79a8;stop-opacity:0.4" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Dark space background -->
+  <circle cx="16" cy="16" r="15" fill="url(#spaceGrad)"/>
+  
+  <!-- Stars -->
+  <circle cx="8" cy="8" r="0.5" fill="white" opacity="0.9"/>
+  <circle cx="24" cy="6" r="0.3" fill="white" opacity="0.7"/>
+  <circle cx="26" cy="20" r="0.4" fill="white" opacity="0.8"/>
+  <circle cx="6" cy="24" r="0.3" fill="white" opacity="0.6"/>
+  <circle cx="12" cy="26" r="0.2" fill="white" opacity="0.5"/>
+  
+  <!-- Solo Leveling inspired shadow/energy symbol -->
+  <path d="M16 6 L20 10 L16 14 L12 10 Z" fill="url(#shadowGrad)" opacity="0.9"/>
+  <path d="M10 16 L14 12 L18 16 L14 20 Z" fill="url(#shadowGrad)" opacity="0.7"/>
+  <path d="M18 16 L22 12 L26 16 L22 20 Z" fill="url(#shadowGrad)" opacity="0.5"/>
+  
+  <!-- Central glowing orb -->
+  <circle cx="16" cy="16" r="3" fill="#a29bfe" opacity="0.8"/>
+  <circle cx="16" cy="16" r="1.5" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Shadow energy lines -->
+  <line x1="16" y1="2" x2="16" y2="6" stroke="url(#shadowGrad)" stroke-width="0.5" opacity="0.6"/>
+  <line x1="16" y1="26" x2="16" y2="30" stroke="url(#shadowGrad)" stroke-width="0.5" opacity="0.6"/>
+  <line x1="2" y1="16" x2="6" y2="16" stroke="url(#shadowGrad)" stroke-width="0.5" opacity="0.6"/>
+  <line x1="26" y1="16" x2="30" y2="16" stroke="url(#shadowGrad)" stroke-width="0.5" opacity="0.6"/>
+</svg>
