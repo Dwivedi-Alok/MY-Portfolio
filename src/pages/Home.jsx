@@ -1,5 +1,4 @@
-import React from 'react'
-import ThemeToggle from '../components/ThemeToggle' 
+import React from 'react' 
 import StarBAck from '@/components/StarBAck.jsx'
 import Navbar from '@/components/Navbar.jsx'
 import HeroSection from '@/components/HeroSection.jsx'
@@ -9,7 +8,7 @@ function Home() {
   return (
     <div className='min-h-screen bg-background text-foreground overflow-x-hidden '>
         {/*theme Toggle*/}
-       {/* <ThemeToggle/> */}
+       
         {/* background Effect */}
     <StarBAck />
         {/*NavBAr */}
