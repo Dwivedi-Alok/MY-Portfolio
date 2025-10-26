@@ -2,8 +2,18 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 import DisPng from "../assets/disasterManagement.png"
 import EcoPng from "../assets/EcoTrust.png"
 import NayayPng from "../assets/NayaySutra.png"
+import VibePng from "../assets/vibe.png"
 
 const projects = [
+  {
+    id: 1,
+    title: "vibe - Realtime Chat Aplication",
+    description:" A full-Stack Chat application with userAuthentication Realtime Chat functionality",
+    image: VibePng, // Replace with your actual image path
+    tags: ["React.js", "Node.js", "MongoDB", "Express","Socket.io"],
+    demoUrl: "https://vibe-frontend-umber.vercel.app/",
+    githubUrl: "https://github.com/Dwivedi-Alok/vibe_frontend"
+  },
   {
     id: 1,
     title: "NayaySutra – AI Legal Assistance",
