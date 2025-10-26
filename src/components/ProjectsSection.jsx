@@ -15,7 +15,7 @@ const projects = [
     githubUrl: "https://github.com/Dwivedi-Alok/vibe_frontend"
   },
   {
-    id: 1,
+    id: 2,
     title: "NayaySutra – AI Legal Assistance",
     description:
       "A full-stack platform for legal aid with instant document generation, AI chatbot, and responsive design.",
@@ -25,7 +25,7 @@ const projects = [
     githubUrl: "https://github.com/Dwivedi-Alok/NayaySutra",
   },
   {
-    id: 2,
+    id: 3,
     title: "Disaster Management System",
     description:
       "Real-time emergency platform with geospatial alerts, social media monitoring, and Socket.IO-based communication.",
@@ -35,7 +35,7 @@ const projects = [
     githubUrl: "https://github.com/Dwivedi-Alok/disaster-response-platform-",
   },
   {
-    id: 3,
+    id: 4,
     title: "Website Security Checker",
     description:
       "AI-powered tool for scanning URLs using SSL checks, Google Safe Browsing, and Gemini-based risk scoring.",
